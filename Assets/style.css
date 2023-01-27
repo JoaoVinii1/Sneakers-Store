@@ -45,7 +45,7 @@ body {
     height: 395px;
     display: flex;
     
-    background-image: url(/Assets/Imagens/capa.jpg);
+    background-image: url(./Assets/Imagens/capa.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
