@@ -10,7 +10,9 @@ Essa landing page faz parte de um desafio front-end proposto pela comunidade cod
 
 > 🎯 Desafio #2
 
-[Acesse aqui o site](https://ericodesenvolvedor.github.io/jordan-shoes/)
+<br>
+
+[Acesse aqui o site](https://joaovinii1.github.io/Sneakers-Store/)
 
 ### Ferramentas utilizadas
 
