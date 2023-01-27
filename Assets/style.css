@@ -51,9 +51,11 @@ header {
     
     height: 395px;
     display: flex;
-    align-items: center;
     
-  
+    background-image: url(/Assets/Imagens/capa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
