@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif ; 
+}
+
+/* Aqui começa CSS descrição superior HEADER */
+
+.container--top { 
+    height: 120px;
+    text-align: center;
+}
+
+.container--top p {
+    height:60px;
+    background-color: black;
+    color:rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.container--top h2{
+    height: 60px;
+    padding:10px;
+    font-size: 30px;
+}
+
+.container--top span {
+    font-size: 35px;
+    color: orange;
+    font-weight: 700;
+    text-shadow: 1px 2px 5px rgb(190, 190, 190);
+}
+
+/* Aqui Fecha CSS descrição superior HEADER */
+
+/* Aqui começa CSS Banner */
+
+.container--banner {
+    align-items: center;
+    height: 395px;
+    display: flex;
+    
+    background-image: url(/Assets/Imagens/capa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner--description{
+    margin-left: 100px;
+    color: #f9f9f9;
+}
+
+.banner--description h2{
+    color: #f9f9f9;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.banner--description p{
+    font-size: 18px;
+}
+
+/* Aqui termina CSS Banner */
+
+.container--main {
+display: flex;
+justify-content: center;   
+}
+
+.description--main p{
+text-align: center;
+background-color: #f9f9f9;
+
+font-size: 20px;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+.description--main  h2{
+margin-top: 20px;
+text-align: center;
+
+font-size: 32px; 
+}
+
+.container--itens, ul {
+list-style: none;
+margin: 0 auto;
+
+max-width: 2000px;
+height: auto;
+
+background-color: #f9f9f9;
+display: flex;
+flex-wrap: wrap;
+
+justify-content: center;
+align-items: center;
+}
+
+
+li {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 20px ;
+width: 430px;
+height: 302px;
+background-color: #ebe9ea;
+box-shadow: 1px 1px 10px rgb(199, 199, 199);
+
+}
+
+li:hover {
+    box-shadow: 1px 1px 12px rgb(155, 155, 155);
+}
+
+li img{
+    width: 250px;
+    height: 150px;
+}
+
+.footer {
+    background-color: black;
+    height: 60px;
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+}
+
+.footer a {
+    color: rgb(78, 128, 221);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: rgb(224, 171, 71);
+}
