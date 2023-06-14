@@ -1,16 +1,20 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #f9f9f9;
+html{
+    font-size: 52,6%;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif ; 
 }
 
+body {
+    background-color: #f9f9f9;   
+}
+
 header {
-     /* */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,24 +24,28 @@ header {
 .container--top { 
     height: 120px;
     text-align: center;
+    width: 100%;
+    background-color: black;
+    
 }
 
-.container--top p {
+.container--top p { 
     height:60px;
-    background-color: black;
     color:rgb(255, 255, 255);
     padding: 15px;
+    font-size: 1rem;
 }
 
 .container--top h2{
     background-color: white;
     height: 60px;
-    padding:10px;
-    font-size: 30px;
+    padding:8px;
+    font-size: 2.2rem;
+    
 }
 
 .container--top span {
-    font-size: 35px;
+    font-size: 2.2rem;
     color: orange;
     font-weight: 700;
     text-shadow: 1px 2px 5px rgb(190, 190, 190);
@@ -47,8 +55,8 @@ header {
 
 /* Aqui começa CSS Banner */
 
-.container--banner {
-    
+.container--banner { 
+    width: 100vw;
     height: 395px;
     display: flex;
     align-items: center;
@@ -62,16 +70,18 @@ header {
 .banner--description{
     margin-left: 100px;
     color: #f9f9f9;
+    
 }
 
 .banner--description h2{
-    color: #f9f9f9;
-    font-size: 48px;
+    font-size: 3rem;
     margin-bottom: 15px;
+    text-shadow:  1px 1px 10px rgba(24, 24, 24, 0.897);
 }
 
 .banner--description p{
-    font-size: 18px;
+    font-size: 1rem;
+    text-shadow:  1px 1px 10px rgba(24, 24, 24, 0.897);
 }
 
 /* Aqui termina CSS Banner */
@@ -85,7 +95,7 @@ justify-content: center;
 text-align: center;
 background-color: #f9f9f9;
 
-font-size: 20px;
+font-size: 1.2rem;
 margin-top: 10px;
 margin-bottom: 30px;
 }
@@ -93,8 +103,7 @@ margin-bottom: 30px;
 .description--main  h2{
 margin-top: 20px;
 text-align: center;
-
-font-size: 32px; 
+font-size: 2rem; 
 }
 
 .container--itens, ul {
@@ -157,3 +166,13 @@ li img{
 .footer a:hover {
     color: rgb(224, 171, 71);
 }
+
+@media (max-width: 768px) { 
+ 
+    .banner--description {
+    margin: 15px;
+    text-align: center;
+    
+    }
+ }
+ 
